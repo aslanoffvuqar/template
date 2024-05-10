@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.navbar_info {
+    display: flex;
+    gap: 20px;
+}
+
+.section_two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 2rem;
+}
